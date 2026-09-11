@@ -1,9 +1,20 @@
 void setup() {
-  size(500, 500);  //feel free to change the size
+  size(900, 900);  //feel free to change the size
   noLoop(); //stops the draw() function from repeating
 }
 void draw() {
-  //your code here
+  background(255);
+  fill(100, 200, 100);
+  stroke(0);
+  beginShape();
+  curveVertex(300, 300);
+  curveVertex(300, 300);
+  curveVertex(350, 400);
+  curveVertex(400, 450);
+  curveVertex(450, 400);
+  curveVertex(500, 300);
+  curveVertex(500, 300);
+  endShape(CLOSE);
 }
 void scale(int x, int y) {
   //your code here
