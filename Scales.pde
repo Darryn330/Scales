@@ -1,4 +1,4 @@
-vvoid setup() {
+void setup() {
   size(900, 900);  //feel free to change the size
   background(200,100,100);
   noLoop(); //stops the draw() function from repeating
