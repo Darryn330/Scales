@@ -3,7 +3,7 @@ void setup() {
   noLoop(); //stops the draw() function from repeating
 }
 void draw() {
-  background(255);
+  background(255,0,0);
   fill(100, 200, 100);
   stroke(0);
   beginShape();
@@ -14,7 +14,7 @@ void draw() {
   curveVertex(450, 400);
   curveVertex(500, 300);
   curveVertex(500, 300);
-  endShape(CLOSE);
+  endShape();
 }
 void scale(int x, int y) {
   //your code here
